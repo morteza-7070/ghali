@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+       <nav class="navbar navbar-expand-lg bg-dark">
+          <div class="container-fluid">
+            <ul class="nav">
+                <li class="nav-item"><img src="../pic/222.png" alt=""></li>
+                <h1 class="text-light">قالیشویی شربت اوغلی(اصلی)</h1>
+            </ul>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">رزرو آنلاین</button>
+
+            
+           
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"> رزرو </h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <label for="name">نام و نام خانوادگی:</label><br>
+              <input type="text" name="name" bg-model="name"><br>
+              <label for="number">تلفن منزل:</label><br><input type="tel" ng-model="tel" name="tel"><br>
+              <label for="number">تلفن همراه</label><br><input type="tel" ng-model=tel name="tel"><br>
+              <label for="address">آدرس:</label><br><input type="text" ng-model="address" name="address"><br>
+             
+              <label for=""> روزمراجعه:</label><br><br>
+              <select name="time" id="time" placeholder="روز مراجعه">
+               
+                <option value="time">شنبه</option>
+                <option value="time">یکشنبه</option>
+                <option value="time">دوشنبه</option>
+                <option value="time">سه شنبه</option>
+                <option value="time">چهارشنبه</option>
+                <option value="time">پنج شنبه</option>
+                <option value="time">جمعه</option>
+              </select><br><br>
+              <label for="servies">نوع خدمات</label>
+             <select name="" id="">نوع خدمات
+                <option value="">قالیشویی</option>
+                <option value="">شستشوی مبلمان</option>
+              </select><br><br>
+              <input type="submit" >
+              </div>
+              
+            </div>
+           
+       </nav>
+       <div class="container-fluid">
+        <ul class="nav-1">
+            <li class="nav-item-1"><a href="#" class="nav-link-1 active">صفحه اصلی</a></li>
+            <li class="nav-item-1"><a href="#servies" class="nav-link-1">خدمات</a></li>
+            <li class="nav-item-1"><a href="#the part" class="nav-link-1">بخش ها</a></li>
+            <li class="nav-item-1"><a href="#footer" class="nav-link-1">تماس با ما</a></li>
+        </ul>
+       </div>
+    </header>
+    <section id="body-1">
+        <div class="row">
+            <div class=" col-sm-6">
+                <h2 class="title-1">ویکی پدیا</h2>
+                <p class="text">قالیشویی، امروزه با پیشرفت تکنولوژی، و آمدن دستگاه‌ها و مواد شوینده قوی، آسانتر و سریعتر شده‌است. قالیشویی امروزی بیشتر در کارخانه‌ها یا کارگاه‌های قالیشویی، و با دستگاه‌های قالیشویی انجام می‌پذیرد و برای خشک شدن فرشهای شسته شده، از گرمخانه استفاده می‌شود. البته همچنان در بعضی از نقاط ایران و خاورمیانه، هنوز به صورت دستی نیز انجام می‌شود.
+
+                    قالیشویی فرش‌ها به دو نوع فرشهای ماشینی و فرشهای دستباف تقسیم می‌شود؛ که نوع شستشوی فرش و مواد شوینده، متناسب با نوع فرش انتخاب می‌شود.
+                    
+                    قالیشویی به عنوان شغل در ایران ثبت شده‌است و دارای اتحادیه قالیشویی و صنف قالیشویی می‌باشد. اتحادیه صنف قالیشویان تهران در سال ۱۳۵۱ تأسیس گردیده‌است. با توجه به کمبود منابع آبی امروزه در ایران از دستگاه‌های اتوماتیک جهت شتشوی قالی و با قابلیت بازیافت آب مصرفی استفاده می‌شود.</p>
+            </div>
+            <div class=" col-sm-6 ">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../pic/بارگیری (1).jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../pic/بارگیری (2).jpg" class="d-block w-100" alt="..."><br>
+                        <p>قالیشویی شربت اوغلی با بهترین کیفیت و بهترین دستگاه ها در خدمت هم شهریان عزیز میباشد</p>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../pic/بارگیری (3).jpg" class="d-block w-100" alt="...">
+                        <p>my name is morteza</p>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section id="servies">
+      <div class="container">
+        
+        <h2>خدماتی که در قالیشویی ما به همشهریان عزیز ارائه میشود شامل:</h2>
+         <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="../pic/بارگیری (4) تابلو فرش.jpg" alt="" class="img">
+              <h4 class="title-2">شستشوی تابلو فرش با بهترین کیفیت</h4>
+             </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="../pic/بارگیری (4)رفوگری.jpg" alt="" class="img">
+              <h4 class="title-2">رفوگری وترمیم قالی های دستی وماشینی توسط کادری مجرب</h4>
+             </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="../pic/بارگیری (4)شستشو.jpg" alt="" class="img">
+              <h4 class="title-2">شستشوی انواع فرش های ماشینی و دستی توسط دستگاه های به روز و مواد درجه یک</h4>
+             </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <img src="../pic/images سم پاشی.jpg" alt="" class="img">
+                <h4 class="title-2">سم پاشی منازل و محل کار</h4>
+              </div>
+              
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <img src="../pic/بارگیری (4)موکت.jpg" alt="" class="img">
+              <h4 class="title-2">شستشوی موکت </h4>
+             </div>
+
+             
+          </div>
+         </div>
+
+    </section>
+   
+    <section id="footer">
+      <div class="container">
+        <p class="number">شماره تماس:09157118565</p>
+        
+        <p>آدرس:تهران</p>
+        
+        <p>پست الکترونیکی:morteza.memarian81@gmail.com</p>
+      </div>
+    </section>
+    <div><i></i><img src="../pic/facebook.html" alt="">ydtikfli,h</div>
+
+
+    
+
+
+
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    
+</body>
+</html>
